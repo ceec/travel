@@ -2,6 +2,8 @@
 
 @section('content')
 <div class="container">
-    <h2>Travel</h2>
+  
+    {{$trip->id}}
+  
 </div>
 @endsection

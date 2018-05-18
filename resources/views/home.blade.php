@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href="/home/trips/create">Create new trip</a>
+                    <br>
+                    <a href="/home/trips">Edit Trip</a>
                 </div>
             </div>
         </div>
