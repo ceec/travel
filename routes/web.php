@@ -31,7 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //learn new things
 //https://laravel.com/docs/5.6/controllers#resource-controllers
 // /Next, you may register a resourceful route to the controller: this is a resourceful route
-Route::resource('/home/trips','TripController');
+Route::resource('/home/trips','TripController3');
 
 
 //home routes

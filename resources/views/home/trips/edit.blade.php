@@ -49,8 +49,12 @@
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </div>
+    </form>
 
-
+    <form action="" method="POST">
+        @csrf
+        <input type="hidden" name="trip_id" value={{$trip->id}}>
+       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 @endsection

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TripController extends Controller
+class TripController2 extends Controller
 {
     /**
      * Create a new controller instance.
